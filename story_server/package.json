@@ -1,0 +1,18 @@
+{
+  "name": "my-little-day-story-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API tạo bản nháp câu chuyện xã hội cho My Little Day (POST /api/v1/stories/generate)",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test test/validate.test.js test/server.test.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0"
+  }
+}
